@@ -1,0 +1,4038 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #1D1D1D;
+  color: #ffffff;
+}
+#page {
+  position: absolute;
+  top: 65vw;
+  padding-top: 4em;
+  left: 0;
+  right: 0;
+  background-color: #1D1D1D;
+  color: #ffffff;
+}
+.text {
+  display: block;
+  padding-top: 2em;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+#image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;;
+}
+#header {
+  background-color: #0F0F0F;
+  color: #ffffff;
+  font-size: 1.6em;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  padding: 0;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.image{
+animation: rotate 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s infinite;
+-webkit-animation: rotate 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s infinite;
+}
+.image:hover{
+-webkit-transition:all 1s ease;
+animation: rotate 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s infinite;
+-webkit-animation: rotate 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s infinite;
+
+}
+
+
+
+
+@keyframes rotate
+{
+0%   {}
+100% {transform: rotate(-360deg);}
+}
+@-webkit-keyframes rotate
+{
+0%   {}
+100% {-webkit-transform: rotate(-360deg);}
+}
+
+.404logo{
+  margin-top: 100px;
+}
+
+
+#left-header {
+  padding: 0.5em;
+  margin: 0;
+  float: left;
+}
+#menu {
+  float: right;
+}
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5em;
+}
+#menu li {
+  float: left;
+}
+#menu li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 16px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(192, 192, 192, 0);
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease;
+}
+#menu li a:hover {
+  border-bottom: 1px solid rgba(192, 192, 192, 1);
+}
+#layer1, #layer2, #layer3, #layer4, #layer5, #layer6 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#outer-header {
+  top: 65vw;
+  position: absolute;
+  z-index: 9999999;
+  left: 0;
+  right: 0;
+}
+h1 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+}
+iframe {
+  box-shadow: 0px -1px 20px 0px rgba(0,0,0,0.5);
+}
+#imageHeader {
+  height: 60px;
+  float: left;
+  margin-left: 0.5em;
+
+}
+#imagefooter {
+  height: 32px;
+  float: left;
+  border: 3px;
+  padding: 0.2em;
+  border-radius: 1em;
+  color: gray;
+  border-style: solid;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+
+}
+
+#imagefooter:hover {
+  color: #ffffff;
+}
+#imagefooter:active {
+  color: #ffffff;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+.img-circle {
+  border-radius: 50%;
+}
+#athleteleft {
+  float: left;
+  border: 1px;
+  padding: 0.2em;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 0px -1px 10px 0px rgba(0,0,0,0.5);
+}
+#athletemiddle {
+  float: left;
+  border: 1px;
+  padding: 0.2em;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 0px -1px 10px 0px rgba(0,0,0,0.5);
+}
+#shop {
+  padding-top: 20px;
+}
+
+.fade {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade:hover {
+  opacity: 0.5;
+}
+
+
+.aspect-ratio {
+  position: relative;
+  width: 20%;
+  height: 0;
+}
+
+
+a.tile {text-decoration: none; }
+
+.tile {
+  height: 100%;
+  width: 33.3333333333333333%;
+  color: #ffffff;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border: 5px solid #1D1D1D;
+
+}
+.tile:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+.tile:active {
+  border-color: #ffffff;
+}
+.tile_text {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  opacity: 0;
+  font-size: 20px;
+  background-color: #000000;
+}
+.tile_text:hover {
+  opacity: 0.5;
+}
+.tile_text_text {
+  margin: auto;
+  text-align: center;
+  padding: 0.1em;
+  padding-top: 15%;
+  opacity: 1;
+}
+.buyItem {
+  background-color: black;
+  width: 50%;
+  padding: 0.7em;
+  padding-top: 0.4em;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+}
+#wall {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+@media (max-width:1000px) {
+  .tile {
+    width: 50%;
+  }
+}
+@media (max-width:700px) {
+  .tile {
+    width: 100%;
+  }
+}
+
+#abouttext {
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+@media (max-width:830px) {
+  #abouttext {
+    padding: 1em;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  #text {
+    display: inline-block;
+    padding: 1em;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+
+
+
+/* Icon */
+
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+}
+
+.icon:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+.icon > .label {
+  display: none;
+}
+
+
+
+
+/* Icon */
+
+.icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+}
+
+.icon:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+.icon > .label {
+  display: none;
+}
+
+
+/* List */
+
+ul {
+  list-style: disc;
+  padding-left: 1em;
+}
+
+ul li {
+  padding-left: 0.5em;
+}
+
+ul.alt {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.alt li {
+  border-top: solid 1px rgba(144, 144, 144, 0.25);
+  padding: 0.5em 0;
+}
+
+ul.alt li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.icons li {
+  display: inline-block;
+  padding: 0 1.25em 0 0;
+}
+
+ul.icons li:last-child {
+  padding-right: 0 !important;
+}
+
+ul.icons li a.icon:hover {
+  background-color: rgba(144, 144, 144, 0.075);
+}
+
+ul.icons li a.icon:active {
+  background-color: rgba(144, 144, 144, 0.2);
+}
+
+ul.menu {
+  line-height: 1em;
+  list-style: none;
+  padding: 0;
+}
+
+
+
+ul.menu li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Footer */
+
+#footer {
+  box-shadow: 0px -1px 20px 0px rgba(0,0,0,0.5);
+  color: #949494;
+  padding: 2em 0;
+  text-align: center;
+  background-color: #323232;
+  margin-top: 2em;
+}
+
+#footer .icons {
+  margin: 0 0 1em 0;
+}
+
+#footer .menu a {
+  color: inherit;
+}
+
+#footer .copyright {
+  font-size: 0.8em;
+}
+
+.embed {
+  width: 640px;
+  max-width: 100%;
+  height: 385px;
+  margin: 0 auto;
+  display: block;
+}
+#scrollToo {
+  height: 0;
+  width: 0;
+}
+
+
+/* Instagram
+---------------------------------------------------------------------------------------------------- */
+
+.instagram {
+	overflow: hidden;
+}
+
+.instagram .wrap {
+	border-top: 1px solid #eee;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1280px;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.instagram .widget-title {
+	font-family: 'Miller Ban It';
+	font-size: 24px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.instagram ul {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.instagram ul li {
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px; 
+}
+
+.instagram img {
+	height: 160px;
+	vertical-align: top;
+	width: 160px;
+}
+
+/* Glitch */
+
+
+.glitch {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@keyframes noise-anim {
+  0% {
+    clip: rect(23px, 9999px, 89px, 0);
+  }
+  5% {
+    clip: rect(36px, 9999px, 58px, 0);
+  }
+  10% {
+    clip: rect(70px, 9999px, 68px, 0);
+  }
+  15% {
+    clip: rect(89px, 9999px, 30px, 0);
+  }
+  20% {
+    clip: rect(17px, 9999px, 2px, 0);
+  }
+  25% {
+    clip: rect(78px, 9999px, 97px, 0);
+  }
+  30% {
+    clip: rect(48px, 9999px, 85px, 0);
+  }
+  35% {
+    clip: rect(77px, 9999px, 84px, 0);
+  }
+  40% {
+    clip: rect(57px, 9999px, 65px, 0);
+  }
+  45% {
+    clip: rect(58px, 9999px, 20px, 0);
+  }
+  50% {
+    clip: rect(21px, 9999px, 21px, 0);
+  }
+  55% {
+    clip: rect(85px, 9999px, 51px, 0);
+  }
+  60% {
+    clip: rect(82px, 9999px, 62px, 0);
+  }
+  65% {
+    clip: rect(39px, 9999px, 20px, 0);
+  }
+  70% {
+    clip: rect(71px, 9999px, 92px, 0);
+  }
+  75% {
+    clip: rect(60px, 9999px, 21px, 0);
+  }
+  80% {
+    clip: rect(59px, 9999px, 53px, 0);
+  }
+  85% {
+    clip: rect(95px, 9999px, 100px, 0);
+  }
+  90% {
+    clip: rect(44px, 9999px, 9px, 0);
+  }
+  95% {
+    clip: rect(57px, 9999px, 26px, 0);
+  }
+  100% {
+    clip: rect(44px, 9999px, 20px, 0);
+  }
+}
+.glitch:after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  color: white;
+  background: #1D1D1D;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
+  text-align: center;
+}
+
+@keyframes noise-anim-2 {
+  0% {
+    clip: rect(33px, 9999px, 44px, 0);
+  }
+  5% {
+    clip: rect(60px, 9999px, 92px, 0);
+  }
+  10% {
+    clip: rect(11px, 9999px, 84px, 0);
+  }
+  15% {
+    clip: rect(95px, 9999px, 69px, 0);
+  }
+  20% {
+    clip: rect(17px, 9999px, 47px, 0);
+  }
+  25% {
+    clip: rect(86px, 9999px, 43px, 0);
+  }
+  30% {
+    clip: rect(97px, 9999px, 2px, 0);
+  }
+  35% {
+    clip: rect(52px, 9999px, 61px, 0);
+  }
+  40% {
+    clip: rect(52px, 9999px, 9px, 0);
+  }
+  45% {
+    clip: rect(59px, 9999px, 92px, 0);
+  }
+  50% {
+    clip: rect(72px, 9999px, 23px, 0);
+  }
+  55% {
+    clip: rect(46px, 9999px, 6px, 0);
+  }
+  60% {
+    clip: rect(37px, 9999px, 68px, 0);
+  }
+  65% {
+    clip: rect(28px, 9999px, 17px, 0);
+  }
+  70% {
+    clip: rect(30px, 9999px, 74px, 0);
+  }
+  75% {
+    clip: rect(18px, 9999px, 22px, 0);
+  }
+  80% {
+    clip: rect(31px, 9999px, 41px, 0);
+  }
+  85% {
+    clip: rect(58px, 9999px, 74px, 0);
+  }
+  90% {
+    clip: rect(25px, 9999px, 50px, 0);
+  }
+  95% {
+    clip: rect(38px, 9999px, 8px, 0);
+  }
+  100% {
+    clip: rect(95px, 9999px, 17px, 0);
+  }
+}
+.glitch:before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  top: 0;
+  color: white;
+  background: #1D1D1D;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim-2 3s infinite linear alternate-reverse;
+  text-align: center;
+}
+
+
+
+/* Loading */
+
+.polygon-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-perspective: 100px;
+          perspective: 100px;
+  -webkit-perspective-origin: 50% 40%;
+          perspective-origin: 50% 40%;
+  overflow: hidden;
+}
+
+.polygon {
+  border-top: 200px solid transparent;
+  border-left: 250px solid #FFFFFF;
+  -webkit-backface-visibility: visible;
+          backface-visibility: visible;
+  will-change: transform;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.polygon:nth-child(1) {
+  -webkit-animation: fly-1 5000ms ease-in infinite;
+          animation: fly-1 5000ms ease-in infinite;
+  -webkit-animation-delay: -3527ms;
+          animation-delay: -3527ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-1 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.32686vw, 42.43698vh, -1907px) rotate3d(11, 13, 9, 146deg);
+            transform: translate3d(44.32686vw, 42.43698vh, -1907px) rotate3d(11, 13, 9, 146deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-6.62851vw, 73.88177vh, 100px) rotate3d(2, 5, -1, 146deg);
+            transform: translate3d(-6.62851vw, 73.88177vh, 100px) rotate3d(2, 5, -1, 146deg);
+  }
+}
+@keyframes fly-1 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.32686vw, 42.43698vh, -1907px) rotate3d(11, 13, 9, 146deg);
+            transform: translate3d(44.32686vw, 42.43698vh, -1907px) rotate3d(11, 13, 9, 146deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-6.62851vw, 73.88177vh, 100px) rotate3d(2, 5, -1, 146deg);
+            transform: translate3d(-6.62851vw, 73.88177vh, 100px) rotate3d(2, 5, -1, 146deg);
+  }
+}
+.polygon:nth-child(2) {
+  -webkit-animation: fly-2 5000ms ease-in infinite;
+          animation: fly-2 5000ms ease-in infinite;
+  -webkit-animation-delay: -410ms;
+          animation-delay: -410ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(43.79041vw, 41.4466vh, -1884px) rotate3d(15, 8, 4, 197deg);
+            transform: translate3d(43.79041vw, 41.4466vh, -1884px) rotate3d(15, 8, 4, 197deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(68.0371vw, -37.7866vh, 100px) rotate3d(8, -15, 0, 197deg);
+            transform: translate3d(68.0371vw, -37.7866vh, 100px) rotate3d(8, -15, 0, 197deg);
+  }
+}
+@keyframes fly-2 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(43.79041vw, 41.4466vh, -1884px) rotate3d(15, 8, 4, 197deg);
+            transform: translate3d(43.79041vw, 41.4466vh, -1884px) rotate3d(15, 8, 4, 197deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(68.0371vw, -37.7866vh, 100px) rotate3d(8, -15, 0, 197deg);
+            transform: translate3d(68.0371vw, -37.7866vh, 100px) rotate3d(8, -15, 0, 197deg);
+  }
+}
+.polygon:nth-child(3) {
+  -webkit-animation: fly-3 5000ms ease-in infinite;
+          animation: fly-3 5000ms ease-in infinite;
+  -webkit-animation-delay: -430ms;
+          animation-delay: -430ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-3 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(53.61453vw, 44.47087vh, -1557px) rotate3d(5, 25, 7, 134deg);
+            transform: translate3d(53.61453vw, 44.47087vh, -1557px) rotate3d(5, 25, 7, 134deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(32.51128vw, 92.5127vh, 100px) rotate3d(-4, 17, -5, 134deg);
+            transform: translate3d(32.51128vw, 92.5127vh, 100px) rotate3d(-4, 17, -5, 134deg);
+  }
+}
+@keyframes fly-3 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(53.61453vw, 44.47087vh, -1557px) rotate3d(5, 25, 7, 134deg);
+            transform: translate3d(53.61453vw, 44.47087vh, -1557px) rotate3d(5, 25, 7, 134deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(32.51128vw, 92.5127vh, 100px) rotate3d(-4, 17, -5, 134deg);
+            transform: translate3d(32.51128vw, 92.5127vh, 100px) rotate3d(-4, 17, -5, 134deg);
+  }
+}
+.polygon:nth-child(4) {
+  -webkit-animation: fly-4 5000ms ease-in infinite;
+          animation: fly-4 5000ms ease-in infinite;
+  -webkit-animation-delay: -408ms;
+          animation-delay: -408ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-4 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.90576vw, 35.55216vh, -1910px) rotate3d(19, 27, 6, 200deg);
+            transform: translate3d(44.90576vw, 35.55216vh, -1910px) rotate3d(19, 27, 6, 200deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(61.23266vw, -53.4529vh, 100px) rotate3d(11, -2, 6, 200deg);
+            transform: translate3d(61.23266vw, -53.4529vh, 100px) rotate3d(11, -2, 6, 200deg);
+  }
+}
+@keyframes fly-4 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.90576vw, 35.55216vh, -1910px) rotate3d(19, 27, 6, 200deg);
+            transform: translate3d(44.90576vw, 35.55216vh, -1910px) rotate3d(19, 27, 6, 200deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(61.23266vw, -53.4529vh, 100px) rotate3d(11, -2, 6, 200deg);
+            transform: translate3d(61.23266vw, -53.4529vh, 100px) rotate3d(11, -2, 6, 200deg);
+  }
+}
+.polygon:nth-child(5) {
+  -webkit-animation: fly-5 5000ms ease-in infinite;
+          animation: fly-5 5000ms ease-in infinite;
+  -webkit-animation-delay: -2767ms;
+          animation-delay: -2767ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-5 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(42.80767vw, 52.69386vh, -1650px) rotate3d(15, 18, 7, 177deg);
+            transform: translate3d(42.80767vw, 52.69386vh, -1650px) rotate3d(15, 18, 7, 177deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(59.90827vw, 68.78647vh, 100px) rotate3d(1, 5, -5, 177deg);
+            transform: translate3d(59.90827vw, 68.78647vh, 100px) rotate3d(1, 5, -5, 177deg);
+  }
+}
+@keyframes fly-5 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(42.80767vw, 52.69386vh, -1650px) rotate3d(15, 18, 7, 177deg);
+            transform: translate3d(42.80767vw, 52.69386vh, -1650px) rotate3d(15, 18, 7, 177deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(59.90827vw, 68.78647vh, 100px) rotate3d(1, 5, -5, 177deg);
+            transform: translate3d(59.90827vw, 68.78647vh, 100px) rotate3d(1, 5, -5, 177deg);
+  }
+}
+.polygon:nth-child(6) {
+  -webkit-animation: fly-6 5000ms ease-in infinite;
+          animation: fly-6 5000ms ease-in infinite;
+  -webkit-animation-delay: -932ms;
+          animation-delay: -932ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-6 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.64121vw, 41.75987vh, -1799px) rotate3d(4, 8, 1, 102deg);
+            transform: translate3d(44.64121vw, 41.75987vh, -1799px) rotate3d(4, 8, 1, 102deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(32.82172vw, -79.42889vh, 100px) rotate3d(-3, 1, -11, 102deg);
+            transform: translate3d(32.82172vw, -79.42889vh, 100px) rotate3d(-3, 1, -11, 102deg);
+  }
+}
+@keyframes fly-6 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.64121vw, 41.75987vh, -1799px) rotate3d(4, 8, 1, 102deg);
+            transform: translate3d(44.64121vw, 41.75987vh, -1799px) rotate3d(4, 8, 1, 102deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(32.82172vw, -79.42889vh, 100px) rotate3d(-3, 1, -11, 102deg);
+            transform: translate3d(32.82172vw, -79.42889vh, 100px) rotate3d(-3, 1, -11, 102deg);
+  }
+}
+.polygon:nth-child(7) {
+  -webkit-animation: fly-7 5000ms ease-in infinite;
+          animation: fly-7 5000ms ease-in infinite;
+  -webkit-animation-delay: -1696ms;
+          animation-delay: -1696ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-7 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(46.13731vw, 46.62119vh, -1722px) rotate3d(30, 5, 10, 144deg);
+            transform: translate3d(46.13731vw, 46.62119vh, -1722px) rotate3d(30, 5, 10, 144deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-22.14953vw, -22.4553vh, 100px) rotate3d(18, -26, -2, 144deg);
+            transform: translate3d(-22.14953vw, -22.4553vh, 100px) rotate3d(18, -26, -2, 144deg);
+  }
+}
+@keyframes fly-7 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(46.13731vw, 46.62119vh, -1722px) rotate3d(30, 5, 10, 144deg);
+            transform: translate3d(46.13731vw, 46.62119vh, -1722px) rotate3d(30, 5, 10, 144deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-22.14953vw, -22.4553vh, 100px) rotate3d(18, -26, -2, 144deg);
+            transform: translate3d(-22.14953vw, -22.4553vh, 100px) rotate3d(18, -26, -2, 144deg);
+  }
+}
+.polygon:nth-child(8) {
+  -webkit-animation: fly-8 5000ms ease-in infinite;
+          animation: fly-8 5000ms ease-in infinite;
+  -webkit-animation-delay: -609ms;
+          animation-delay: -609ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-8 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.29655vw, 48.45291vh, -1653px) rotate3d(12, 27, 1, 135deg);
+            transform: translate3d(44.29655vw, 48.45291vh, -1653px) rotate3d(12, 27, 1, 135deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(53.87864vw, -64.52151vh, 100px) rotate3d(3, 9, -12, 135deg);
+            transform: translate3d(53.87864vw, -64.52151vh, 100px) rotate3d(3, 9, -12, 135deg);
+  }
+}
+@keyframes fly-8 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.29655vw, 48.45291vh, -1653px) rotate3d(12, 27, 1, 135deg);
+            transform: translate3d(44.29655vw, 48.45291vh, -1653px) rotate3d(12, 27, 1, 135deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(53.87864vw, -64.52151vh, 100px) rotate3d(3, 9, -12, 135deg);
+            transform: translate3d(53.87864vw, -64.52151vh, 100px) rotate3d(3, 9, -12, 135deg);
+  }
+}
+.polygon:nth-child(9) {
+  -webkit-animation: fly-9 5000ms ease-in infinite;
+          animation: fly-9 5000ms ease-in infinite;
+  -webkit-animation-delay: -4062ms;
+          animation-delay: -4062ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-9 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(48.24037vw, 46.12229vh, -1656px) rotate3d(18, 22, 11, 124deg);
+            transform: translate3d(48.24037vw, 46.12229vh, -1656px) rotate3d(18, 22, 11, 124deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(6.59377vw, -74.39055vh, 100px) rotate3d(-6, 6, 9, 124deg);
+            transform: translate3d(6.59377vw, -74.39055vh, 100px) rotate3d(-6, 6, 9, 124deg);
+  }
+}
+@keyframes fly-9 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(48.24037vw, 46.12229vh, -1656px) rotate3d(18, 22, 11, 124deg);
+            transform: translate3d(48.24037vw, 46.12229vh, -1656px) rotate3d(18, 22, 11, 124deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(6.59377vw, -74.39055vh, 100px) rotate3d(-6, 6, 9, 124deg);
+            transform: translate3d(6.59377vw, -74.39055vh, 100px) rotate3d(-6, 6, 9, 124deg);
+  }
+}
+.polygon:nth-child(10) {
+  -webkit-animation: fly-10 5000ms ease-in infinite;
+          animation: fly-10 5000ms ease-in infinite;
+  -webkit-animation-delay: -3396ms;
+          animation-delay: -3396ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-10 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(54.63059vw, 42.78047vh, -1973px) rotate3d(15, 3, 1, 124deg);
+            transform: translate3d(54.63059vw, 42.78047vh, -1973px) rotate3d(15, 3, 1, 124deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(73.79584vw, -12.47846vh, 100px) rotate3d(-10, -18, -10, 124deg);
+            transform: translate3d(73.79584vw, -12.47846vh, 100px) rotate3d(-10, -18, -10, 124deg);
+  }
+}
+@keyframes fly-10 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(54.63059vw, 42.78047vh, -1973px) rotate3d(15, 3, 1, 124deg);
+            transform: translate3d(54.63059vw, 42.78047vh, -1973px) rotate3d(15, 3, 1, 124deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(73.79584vw, -12.47846vh, 100px) rotate3d(-10, -18, -10, 124deg);
+            transform: translate3d(73.79584vw, -12.47846vh, 100px) rotate3d(-10, -18, -10, 124deg);
+  }
+}
+.polygon:nth-child(11) {
+  -webkit-animation: fly-11 5000ms ease-in infinite;
+          animation: fly-11 5000ms ease-in infinite;
+  -webkit-animation-delay: -2474ms;
+          animation-delay: -2474ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-11 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(48.32893vw, 39.30762vh, -1628px) rotate3d(10, 19, 1, 197deg);
+            transform: translate3d(48.32893vw, 39.30762vh, -1628px) rotate3d(10, 19, 1, 197deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-24.22822vw, 21.72701vh, 100px) rotate3d(-15, -12, 1, 197deg);
+            transform: translate3d(-24.22822vw, 21.72701vh, 100px) rotate3d(-15, -12, 1, 197deg);
+  }
+}
+@keyframes fly-11 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(48.32893vw, 39.30762vh, -1628px) rotate3d(10, 19, 1, 197deg);
+            transform: translate3d(48.32893vw, 39.30762vh, -1628px) rotate3d(10, 19, 1, 197deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-24.22822vw, 21.72701vh, 100px) rotate3d(-15, -12, 1, 197deg);
+            transform: translate3d(-24.22822vw, 21.72701vh, 100px) rotate3d(-15, -12, 1, 197deg);
+  }
+}
+.polygon:nth-child(12) {
+  -webkit-animation: fly-12 5000ms ease-in infinite;
+          animation: fly-12 5000ms ease-in infinite;
+  -webkit-animation-delay: -292ms;
+          animation-delay: -292ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-12 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(39.20595vw, 43.7247vh, -1955px) rotate3d(29, 8, 7, 131deg);
+            transform: translate3d(39.20595vw, 43.7247vh, -1955px) rotate3d(29, 8, 7, 131deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(74.99112vw, 8.13981vh, 100px) rotate3d(21, 3, 4, 131deg);
+            transform: translate3d(74.99112vw, 8.13981vh, 100px) rotate3d(21, 3, 4, 131deg);
+  }
+}
+@keyframes fly-12 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(39.20595vw, 43.7247vh, -1955px) rotate3d(29, 8, 7, 131deg);
+            transform: translate3d(39.20595vw, 43.7247vh, -1955px) rotate3d(29, 8, 7, 131deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(74.99112vw, 8.13981vh, 100px) rotate3d(21, 3, 4, 131deg);
+            transform: translate3d(74.99112vw, 8.13981vh, 100px) rotate3d(21, 3, 4, 131deg);
+  }
+}
+.polygon:nth-child(13) {
+  -webkit-animation: fly-13 5000ms ease-in infinite;
+          animation: fly-13 5000ms ease-in infinite;
+  -webkit-animation-delay: -1521ms;
+          animation-delay: -1521ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-13 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45vw, 41.568vh, -1858px) rotate3d(4, 5, 13, 122deg);
+            transform: translate3d(45vw, 41.568vh, -1858px) rotate3d(4, 5, 13, 122deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-5.14648vw, -62.90812vh, 100px) rotate3d(-20, -13, 9, 122deg);
+            transform: translate3d(-5.14648vw, -62.90812vh, 100px) rotate3d(-20, -13, 9, 122deg);
+  }
+}
+@keyframes fly-13 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45vw, 41.568vh, -1858px) rotate3d(4, 5, 13, 122deg);
+            transform: translate3d(45vw, 41.568vh, -1858px) rotate3d(4, 5, 13, 122deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-5.14648vw, -62.90812vh, 100px) rotate3d(-20, -13, 9, 122deg);
+            transform: translate3d(-5.14648vw, -62.90812vh, 100px) rotate3d(-20, -13, 9, 122deg);
+  }
+}
+.polygon:nth-child(14) {
+  -webkit-animation: fly-14 5000ms ease-in infinite;
+          animation: fly-14 5000ms ease-in infinite;
+  -webkit-animation-delay: -1763ms;
+          animation-delay: -1763ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-14 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(47.14287vw, 37.76271vh, -1945px) rotate3d(21, 24, 2, 188deg);
+            transform: translate3d(47.14287vw, 37.76271vh, -1945px) rotate3d(21, 24, 2, 188deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-20.1067vw, -31.03668vh, 100px) rotate3d(17, 6, -10, 188deg);
+            transform: translate3d(-20.1067vw, -31.03668vh, 100px) rotate3d(17, 6, -10, 188deg);
+  }
+}
+@keyframes fly-14 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(47.14287vw, 37.76271vh, -1945px) rotate3d(21, 24, 2, 188deg);
+            transform: translate3d(47.14287vw, 37.76271vh, -1945px) rotate3d(21, 24, 2, 188deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-20.1067vw, -31.03668vh, 100px) rotate3d(17, 6, -10, 188deg);
+            transform: translate3d(-20.1067vw, -31.03668vh, 100px) rotate3d(17, 6, -10, 188deg);
+  }
+}
+.polygon:nth-child(15) {
+  -webkit-animation: fly-15 5000ms ease-in infinite;
+          animation: fly-15 5000ms ease-in infinite;
+  -webkit-animation-delay: -3045ms;
+          animation-delay: -3045ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-15 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(49.14008vw, 45.38875vh, -1852px) rotate3d(29, 10, 4, 131deg);
+            transform: translate3d(49.14008vw, 45.38875vh, -1852px) rotate3d(29, 10, 4, 131deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(53.87864vw, 77.52151vh, 100px) rotate3d(20, -6, -7, 131deg);
+            transform: translate3d(53.87864vw, 77.52151vh, 100px) rotate3d(20, -6, -7, 131deg);
+  }
+}
+@keyframes fly-15 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(49.14008vw, 45.38875vh, -1852px) rotate3d(29, 10, 4, 131deg);
+            transform: translate3d(49.14008vw, 45.38875vh, -1852px) rotate3d(29, 10, 4, 131deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(53.87864vw, 77.52151vh, 100px) rotate3d(20, -6, -7, 131deg);
+            transform: translate3d(53.87864vw, 77.52151vh, 100px) rotate3d(20, -6, -7, 131deg);
+  }
+}
+.polygon:nth-child(16) {
+  -webkit-animation: fly-16 5000ms ease-in infinite;
+          animation: fly-16 5000ms ease-in infinite;
+  -webkit-animation-delay: -2328ms;
+          animation-delay: -2328ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-16 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45.77125vw, 40.97859vh, -1631px) rotate3d(27, 6, 13, 150deg);
+            transform: translate3d(45.77125vw, 40.97859vh, -1631px) rotate3d(27, 6, 13, 150deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(61.66277vw, -52.65594vh, 100px) rotate3d(0, -17, 10, 150deg);
+            transform: translate3d(61.66277vw, -52.65594vh, 100px) rotate3d(0, -17, 10, 150deg);
+  }
+}
+@keyframes fly-16 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45.77125vw, 40.97859vh, -1631px) rotate3d(27, 6, 13, 150deg);
+            transform: translate3d(45.77125vw, 40.97859vh, -1631px) rotate3d(27, 6, 13, 150deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(61.66277vw, -52.65594vh, 100px) rotate3d(0, -17, 10, 150deg);
+            transform: translate3d(61.66277vw, -52.65594vh, 100px) rotate3d(0, -17, 10, 150deg);
+  }
+}
+.polygon:nth-child(17) {
+  -webkit-animation: fly-17 5000ms ease-in infinite;
+          animation: fly-17 5000ms ease-in infinite;
+  -webkit-animation-delay: -2606ms;
+          animation-delay: -2606ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-17 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45.73876vw, 38.04945vh, -1769px) rotate3d(2, 29, 4, 160deg);
+            transform: translate3d(45.73876vw, 38.04945vh, -1769px) rotate3d(2, 29, 4, 160deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(46.28896vw, 85.21995vh, 100px) rotate3d(-21, 7, -3, 160deg);
+            transform: translate3d(46.28896vw, 85.21995vh, 100px) rotate3d(-21, 7, -3, 160deg);
+  }
+}
+@keyframes fly-17 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45.73876vw, 38.04945vh, -1769px) rotate3d(2, 29, 4, 160deg);
+            transform: translate3d(45.73876vw, 38.04945vh, -1769px) rotate3d(2, 29, 4, 160deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(46.28896vw, 85.21995vh, 100px) rotate3d(-21, 7, -3, 160deg);
+            transform: translate3d(46.28896vw, 85.21995vh, 100px) rotate3d(-21, 7, -3, 160deg);
+  }
+}
+.polygon:nth-child(18) {
+  -webkit-animation: fly-18 5000ms ease-in infinite;
+          animation: fly-18 5000ms ease-in infinite;
+  -webkit-animation-delay: -3061ms;
+          animation-delay: -3061ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-18 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(48.90644vw, 45.08751vh, -1968px) rotate3d(29, 25, 15, 142deg);
+            transform: translate3d(48.90644vw, 45.08751vh, -1968px) rotate3d(29, 25, 15, 142deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(4.56755vw, -72.90417vh, 100px) rotate3d(14, 17, 15, 142deg);
+            transform: translate3d(4.56755vw, -72.90417vh, 100px) rotate3d(14, 17, 15, 142deg);
+  }
+}
+@keyframes fly-18 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(48.90644vw, 45.08751vh, -1968px) rotate3d(29, 25, 15, 142deg);
+            transform: translate3d(48.90644vw, 45.08751vh, -1968px) rotate3d(29, 25, 15, 142deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(4.56755vw, -72.90417vh, 100px) rotate3d(14, 17, 15, 142deg);
+            transform: translate3d(4.56755vw, -72.90417vh, 100px) rotate3d(14, 17, 15, 142deg);
+  }
+}
+.polygon:nth-child(19) {
+  -webkit-animation: fly-19 5000ms ease-in infinite;
+          animation: fly-19 5000ms ease-in infinite;
+  -webkit-animation-delay: -4507ms;
+          animation-delay: -4507ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-19 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(47.09485vw, 49.90572vh, -1645px) rotate3d(30, 30, 2, 168deg);
+            transform: translate3d(47.09485vw, 49.90572vh, -1645px) rotate3d(30, 30, 2, 168deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(19.66944vw, -80.00417vh, 100px) rotate3d(23, -2, -11, 168deg);
+            transform: translate3d(19.66944vw, -80.00417vh, 100px) rotate3d(23, -2, -11, 168deg);
+  }
+}
+@keyframes fly-19 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(47.09485vw, 49.90572vh, -1645px) rotate3d(30, 30, 2, 168deg);
+            transform: translate3d(47.09485vw, 49.90572vh, -1645px) rotate3d(30, 30, 2, 168deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(19.66944vw, -80.00417vh, 100px) rotate3d(23, -2, -11, 168deg);
+            transform: translate3d(19.66944vw, -80.00417vh, 100px) rotate3d(23, -2, -11, 168deg);
+  }
+}
+.polygon:nth-child(20) {
+  -webkit-animation: fly-20 5000ms ease-in infinite;
+          animation: fly-20 5000ms ease-in infinite;
+  -webkit-animation-delay: -2660ms;
+          animation-delay: -2660ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-20 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(46.20444vw, 39.73542vh, -1865px) rotate3d(11, 27, 6, 174deg);
+            transform: translate3d(46.20444vw, 39.73542vh, -1865px) rotate3d(11, 27, 6, 174deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-19.55033vw, -32.99717vh, 100px) rotate3d(-10, 26, 5, 174deg);
+            transform: translate3d(-19.55033vw, -32.99717vh, 100px) rotate3d(-10, 26, 5, 174deg);
+  }
+}
+@keyframes fly-20 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(46.20444vw, 39.73542vh, -1865px) rotate3d(11, 27, 6, 174deg);
+            transform: translate3d(46.20444vw, 39.73542vh, -1865px) rotate3d(11, 27, 6, 174deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-19.55033vw, -32.99717vh, 100px) rotate3d(-10, 26, 5, 174deg);
+            transform: translate3d(-19.55033vw, -32.99717vh, 100px) rotate3d(-10, 26, 5, 174deg);
+  }
+}
+.polygon:nth-child(21) {
+  -webkit-animation: fly-21 5000ms ease-in infinite;
+          animation: fly-21 5000ms ease-in infinite;
+  -webkit-animation-delay: -4274ms;
+          animation-delay: -4274ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-21 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(42.07446vw, 37.99222vh, -1648px) rotate3d(19, 27, 9, 115deg);
+            transform: translate3d(42.07446vw, 37.99222vh, -1648px) rotate3d(19, 27, 9, 115deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(3.14421vw, -71.74826vh, 100px) rotate3d(-5, -3, 0, 115deg);
+            transform: translate3d(3.14421vw, -71.74826vh, 100px) rotate3d(-5, -3, 0, 115deg);
+  }
+}
+@keyframes fly-21 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(42.07446vw, 37.99222vh, -1648px) rotate3d(19, 27, 9, 115deg);
+            transform: translate3d(42.07446vw, 37.99222vh, -1648px) rotate3d(19, 27, 9, 115deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(3.14421vw, -71.74826vh, 100px) rotate3d(-5, -3, 0, 115deg);
+            transform: translate3d(3.14421vw, -71.74826vh, 100px) rotate3d(-5, -3, 0, 115deg);
+  }
+}
+.polygon:nth-child(22) {
+  -webkit-animation: fly-22 5000ms ease-in infinite;
+          animation: fly-22 5000ms ease-in infinite;
+  -webkit-animation-delay: -2529ms;
+          animation-delay: -2529ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-22 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.95327vw, 41.84805vh, -1932px) rotate3d(13, 24, 8, 119deg);
+            transform: translate3d(44.95327vw, 41.84805vh, -1932px) rotate3d(13, 24, 8, 119deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(26.57054vw, -80.45707vh, 100px) rotate3d(4, -7, -6, 119deg);
+            transform: translate3d(26.57054vw, -80.45707vh, 100px) rotate3d(4, -7, -6, 119deg);
+  }
+}
+@keyframes fly-22 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.95327vw, 41.84805vh, -1932px) rotate3d(13, 24, 8, 119deg);
+            transform: translate3d(44.95327vw, 41.84805vh, -1932px) rotate3d(13, 24, 8, 119deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(26.57054vw, -80.45707vh, 100px) rotate3d(4, -7, -6, 119deg);
+            transform: translate3d(26.57054vw, -80.45707vh, 100px) rotate3d(4, -7, -6, 119deg);
+  }
+}
+.polygon:nth-child(23) {
+  -webkit-animation: fly-23 5000ms ease-in infinite;
+          animation: fly-23 5000ms ease-in infinite;
+  -webkit-animation-delay: -471ms;
+          animation-delay: -471ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-23 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(40.89553vw, 44.75862vh, -1520px) rotate3d(29, 26, 14, 111deg);
+            transform: translate3d(40.89553vw, 44.75862vh, -1520px) rotate3d(29, 26, 14, 111deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(69.11456vw, 47.45124vh, 100px) rotate3d(15, 5, 1, 111deg);
+            transform: translate3d(69.11456vw, 47.45124vh, 100px) rotate3d(15, 5, 1, 111deg);
+  }
+}
+@keyframes fly-23 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(40.89553vw, 44.75862vh, -1520px) rotate3d(29, 26, 14, 111deg);
+            transform: translate3d(40.89553vw, 44.75862vh, -1520px) rotate3d(29, 26, 14, 111deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(69.11456vw, 47.45124vh, 100px) rotate3d(15, 5, 1, 111deg);
+            transform: translate3d(69.11456vw, 47.45124vh, 100px) rotate3d(15, 5, 1, 111deg);
+  }
+}
+.polygon:nth-child(24) {
+  -webkit-animation: fly-24 5000ms ease-in infinite;
+          animation: fly-24 5000ms ease-in infinite;
+  -webkit-animation-delay: -134ms;
+          animation-delay: -134ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-24 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(43.06975vw, 43.14799vh, -1582px) rotate3d(15, 23, 15, 169deg);
+            transform: translate3d(43.06975vw, 43.14799vh, -1582px) rotate3d(15, 23, 15, 169deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(14.09284vw, -78.40476vh, 100px) rotate3d(7, 9, 5, 169deg);
+            transform: translate3d(14.09284vw, -78.40476vh, 100px) rotate3d(7, 9, 5, 169deg);
+  }
+}
+@keyframes fly-24 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(43.06975vw, 43.14799vh, -1582px) rotate3d(15, 23, 15, 169deg);
+            transform: translate3d(43.06975vw, 43.14799vh, -1582px) rotate3d(15, 23, 15, 169deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(14.09284vw, -78.40476vh, 100px) rotate3d(7, 9, 5, 169deg);
+            transform: translate3d(14.09284vw, -78.40476vh, 100px) rotate3d(7, 9, 5, 169deg);
+  }
+}
+.polygon:nth-child(25) {
+  -webkit-animation: fly-25 5000ms ease-in infinite;
+          animation: fly-25 5000ms ease-in infinite;
+  -webkit-animation-delay: -4437ms;
+          animation-delay: -4437ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-25 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(41.96999vw, 47.51873vh, -1859px) rotate3d(5, 18, 1, 161deg);
+            transform: translate3d(41.96999vw, 47.51873vh, -1859px) rotate3d(5, 18, 1, 161deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(52.84378vw, 78.76184vh, 100px) rotate3d(0, -1, -13, 161deg);
+            transform: translate3d(52.84378vw, 78.76184vh, 100px) rotate3d(0, -1, -13, 161deg);
+  }
+}
+@keyframes fly-25 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(41.96999vw, 47.51873vh, -1859px) rotate3d(5, 18, 1, 161deg);
+            transform: translate3d(41.96999vw, 47.51873vh, -1859px) rotate3d(5, 18, 1, 161deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(52.84378vw, 78.76184vh, 100px) rotate3d(0, -1, -13, 161deg);
+            transform: translate3d(52.84378vw, 78.76184vh, 100px) rotate3d(0, -1, -13, 161deg);
+  }
+}
+.polygon:nth-child(26) {
+  -webkit-animation: fly-26 5000ms ease-in infinite;
+          animation: fly-26 5000ms ease-in infinite;
+  -webkit-animation-delay: -1254ms;
+          animation-delay: -1254ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-26 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45.13703vw, 41.39628vh, -1590px) rotate3d(15, 18, 7, 194deg);
+            transform: translate3d(45.13703vw, 41.39628vh, -1590px) rotate3d(15, 18, 7, 194deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(74.68057vw, -3.31851vh, 100px) rotate3d(10, 0, 2, 194deg);
+            transform: translate3d(74.68057vw, -3.31851vh, 100px) rotate3d(10, 0, 2, 194deg);
+  }
+}
+@keyframes fly-26 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45.13703vw, 41.39628vh, -1590px) rotate3d(15, 18, 7, 194deg);
+            transform: translate3d(45.13703vw, 41.39628vh, -1590px) rotate3d(15, 18, 7, 194deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(74.68057vw, -3.31851vh, 100px) rotate3d(10, 0, 2, 194deg);
+            transform: translate3d(74.68057vw, -3.31851vh, 100px) rotate3d(10, 0, 2, 194deg);
+  }
+}
+.polygon:nth-child(27) {
+  -webkit-animation: fly-27 5000ms ease-in infinite;
+          animation: fly-27 5000ms ease-in infinite;
+  -webkit-animation-delay: -3550ms;
+          animation-delay: -3550ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-27 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.81025vw, 41.08326vh, -1721px) rotate3d(15, 21, 7, 135deg);
+            transform: translate3d(44.81025vw, 41.08326vh, -1721px) rotate3d(15, 21, 7, 135deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-19.11456vw, -34.45124vh, 100px) rotate3d(-3, -6, -7, 135deg);
+            transform: translate3d(-19.11456vw, -34.45124vh, 100px) rotate3d(-3, -6, -7, 135deg);
+  }
+}
+@keyframes fly-27 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.81025vw, 41.08326vh, -1721px) rotate3d(15, 21, 7, 135deg);
+            transform: translate3d(44.81025vw, 41.08326vh, -1721px) rotate3d(15, 21, 7, 135deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-19.11456vw, -34.45124vh, 100px) rotate3d(-3, -6, -7, 135deg);
+            transform: translate3d(-19.11456vw, -34.45124vh, 100px) rotate3d(-3, -6, -7, 135deg);
+  }
+}
+.polygon:nth-child(28) {
+  -webkit-animation: fly-28 5000ms ease-in infinite;
+          animation: fly-28 5000ms ease-in infinite;
+  -webkit-animation-delay: -3152ms;
+          animation-delay: -3152ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-28 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(42.26574vw, 46.03496vh, -1790px) rotate3d(21, 18, 10, 189deg);
+            transform: translate3d(42.26574vw, 46.03496vh, -1790px) rotate3d(21, 18, 10, 189deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(5.14261vw, 86.34465vh, 100px) rotate3d(3, 12, 2, 189deg);
+            transform: translate3d(5.14261vw, 86.34465vh, 100px) rotate3d(3, 12, 2, 189deg);
+  }
+}
+@keyframes fly-28 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(42.26574vw, 46.03496vh, -1790px) rotate3d(21, 18, 10, 189deg);
+            transform: translate3d(42.26574vw, 46.03496vh, -1790px) rotate3d(21, 18, 10, 189deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(5.14261vw, 86.34465vh, 100px) rotate3d(3, 12, 2, 189deg);
+            transform: translate3d(5.14261vw, 86.34465vh, 100px) rotate3d(3, 12, 2, 189deg);
+  }
+}
+.polygon:nth-child(29) {
+  -webkit-animation: fly-29 5000ms ease-in infinite;
+          animation: fly-29 5000ms ease-in infinite;
+  -webkit-animation-delay: -3569ms;
+          animation-delay: -3569ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-29 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.5997vw, 43.38704vh, -1534px) rotate3d(15, 24, 15, 171deg);
+            transform: translate3d(44.5997vw, 43.38704vh, -1534px) rotate3d(15, 24, 15, 171deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-18.96582vw, -34.93272vh, 100px) rotate3d(-1, 10, 1, 171deg);
+            transform: translate3d(-18.96582vw, -34.93272vh, 100px) rotate3d(-1, 10, 1, 171deg);
+  }
+}
+@keyframes fly-29 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.5997vw, 43.38704vh, -1534px) rotate3d(15, 24, 15, 171deg);
+            transform: translate3d(44.5997vw, 43.38704vh, -1534px) rotate3d(15, 24, 15, 171deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-18.96582vw, -34.93272vh, 100px) rotate3d(-1, 10, 1, 171deg);
+            transform: translate3d(-18.96582vw, -34.93272vh, 100px) rotate3d(-1, 10, 1, 171deg);
+  }
+}
+.polygon:nth-child(30) {
+  -webkit-animation: fly-30 5000ms ease-in infinite;
+          animation: fly-30 5000ms ease-in infinite;
+  -webkit-animation-delay: -2695ms;
+          animation-delay: -2695ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-30 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(47.6012vw, 36.90803vh, -1898px) rotate3d(30, 23, 3, 167deg);
+            transform: translate3d(47.6012vw, 36.90803vh, -1898px) rotate3d(30, 23, 3, 167deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(27.51222vw, -80.39012vh, 100px) rotate3d(6, 20, 1, 167deg);
+            transform: translate3d(27.51222vw, -80.39012vh, 100px) rotate3d(6, 20, 1, 167deg);
+  }
+}
+@keyframes fly-30 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(47.6012vw, 36.90803vh, -1898px) rotate3d(30, 23, 3, 167deg);
+            transform: translate3d(47.6012vw, 36.90803vh, -1898px) rotate3d(30, 23, 3, 167deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(27.51222vw, -80.39012vh, 100px) rotate3d(6, 20, 1, 167deg);
+            transform: translate3d(27.51222vw, -80.39012vh, 100px) rotate3d(6, 20, 1, 167deg);
+  }
+}
+.polygon:nth-child(31) {
+  -webkit-animation: fly-31 5000ms ease-in infinite;
+          animation: fly-31 5000ms ease-in infinite;
+  -webkit-animation-delay: -2242ms;
+          animation-delay: -2242ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-31 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.9686vw, 40.65168vh, -1586px) rotate3d(21, 8, 15, 116deg);
+            transform: translate3d(44.9686vw, 40.65168vh, -1586px) rotate3d(21, 8, 15, 116deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-24.8333vw, -0.59838vh, 100px) rotate3d(-7, -8, 9, 116deg);
+            transform: translate3d(-24.8333vw, -0.59838vh, 100px) rotate3d(-7, -8, 9, 116deg);
+  }
+}
+@keyframes fly-31 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.9686vw, 40.65168vh, -1586px) rotate3d(21, 8, 15, 116deg);
+            transform: translate3d(44.9686vw, 40.65168vh, -1586px) rotate3d(21, 8, 15, 116deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-24.8333vw, -0.59838vh, 100px) rotate3d(-7, -8, 9, 116deg);
+            transform: translate3d(-24.8333vw, -0.59838vh, 100px) rotate3d(-7, -8, 9, 116deg);
+  }
+}
+.polygon:nth-child(32) {
+  -webkit-animation: fly-32 5000ms ease-in infinite;
+          animation: fly-32 5000ms ease-in infinite;
+  -webkit-animation-delay: -4063ms;
+          animation-delay: -4063ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-32 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.9191vw, 41.59992vh, -1686px) rotate3d(7, 1, 10, 134deg);
+            transform: translate3d(44.9191vw, 41.59992vh, -1686px) rotate3d(7, 1, 10, 134deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-15.81696vw, 56.74883vh, 100px) rotate3d(-12, -18, 8, 134deg);
+            transform: translate3d(-15.81696vw, 56.74883vh, 100px) rotate3d(-12, -18, 8, 134deg);
+  }
+}
+@keyframes fly-32 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.9191vw, 41.59992vh, -1686px) rotate3d(7, 1, 10, 134deg);
+            transform: translate3d(44.9191vw, 41.59992vh, -1686px) rotate3d(7, 1, 10, 134deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-15.81696vw, 56.74883vh, 100px) rotate3d(-12, -18, 8, 134deg);
+            transform: translate3d(-15.81696vw, 56.74883vh, 100px) rotate3d(-12, -18, 8, 134deg);
+  }
+}
+.polygon:nth-child(33) {
+  -webkit-animation: fly-33 5000ms ease-in infinite;
+          animation: fly-33 5000ms ease-in infinite;
+  -webkit-animation-delay: -473ms;
+          animation-delay: -473ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-33 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(46.81212vw, 51.81063vh, -1509px) rotate3d(18, 19, 3, 167deg);
+            transform: translate3d(46.81212vw, 51.81063vh, -1509px) rotate3d(18, 19, 3, 167deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(73.35007vw, -15.66505vh, 100px) rotate3d(6, 8, 2, 167deg);
+            transform: translate3d(73.35007vw, -15.66505vh, 100px) rotate3d(6, 8, 2, 167deg);
+  }
+}
+@keyframes fly-33 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(46.81212vw, 51.81063vh, -1509px) rotate3d(18, 19, 3, 167deg);
+            transform: translate3d(46.81212vw, 51.81063vh, -1509px) rotate3d(18, 19, 3, 167deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(73.35007vw, -15.66505vh, 100px) rotate3d(6, 8, 2, 167deg);
+            transform: translate3d(73.35007vw, -15.66505vh, 100px) rotate3d(6, 8, 2, 167deg);
+  }
+}
+.polygon:nth-child(34) {
+  -webkit-animation: fly-34 5000ms ease-in infinite;
+          animation: fly-34 5000ms ease-in infinite;
+  -webkit-animation-delay: -2552ms;
+          animation-delay: -2552ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-34 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45.66598vw, 41.91839vh, -1582px) rotate3d(30, 28, 15, 124deg);
+            transform: translate3d(45.66598vw, 41.91839vh, -1582px) rotate3d(30, 28, 15, 124deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(50.45207vw, 81.38456vh, 100px) rotate3d(24, 13, 2, 124deg);
+            transform: translate3d(50.45207vw, 81.38456vh, 100px) rotate3d(24, 13, 2, 124deg);
+  }
+}
+@keyframes fly-34 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45.66598vw, 41.91839vh, -1582px) rotate3d(30, 28, 15, 124deg);
+            transform: translate3d(45.66598vw, 41.91839vh, -1582px) rotate3d(30, 28, 15, 124deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(50.45207vw, 81.38456vh, 100px) rotate3d(24, 13, 2, 124deg);
+            transform: translate3d(50.45207vw, 81.38456vh, 100px) rotate3d(24, 13, 2, 124deg);
+  }
+}
+.polygon:nth-child(35) {
+  -webkit-animation: fly-35 5000ms ease-in infinite;
+          animation: fly-35 5000ms ease-in infinite;
+  -webkit-animation-delay: -69ms;
+          animation-delay: -69ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-35 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(50.56725vw, 49.81331vh, -1892px) rotate3d(9, 22, 12, 176deg);
+            transform: translate3d(50.56725vw, 49.81331vh, -1892px) rotate3d(9, 22, 12, 176deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(62.50555vw, -51.03413vh, 100px) rotate3d(-11, -1, 5, 176deg);
+            transform: translate3d(62.50555vw, -51.03413vh, 100px) rotate3d(-11, -1, 5, 176deg);
+  }
+}
+@keyframes fly-35 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(50.56725vw, 49.81331vh, -1892px) rotate3d(9, 22, 12, 176deg);
+            transform: translate3d(50.56725vw, 49.81331vh, -1892px) rotate3d(9, 22, 12, 176deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(62.50555vw, -51.03413vh, 100px) rotate3d(-11, -1, 5, 176deg);
+            transform: translate3d(62.50555vw, -51.03413vh, 100px) rotate3d(-11, -1, 5, 176deg);
+  }
+}
+.polygon:nth-child(36) {
+  -webkit-animation: fly-36 5000ms ease-in infinite;
+          animation: fly-36 5000ms ease-in infinite;
+  -webkit-animation-delay: -2428ms;
+          animation-delay: -2428ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-36 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(49.53152vw, 43.19569vh, -1525px) rotate3d(7, 21, 11, 161deg);
+            transform: translate3d(49.53152vw, 43.19569vh, -1525px) rotate3d(7, 21, 11, 161deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(68.81533vw, -35.41257vh, 100px) rotate3d(-14, -5, 5, 161deg);
+            transform: translate3d(68.81533vw, -35.41257vh, 100px) rotate3d(-14, -5, 5, 161deg);
+  }
+}
+@keyframes fly-36 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(49.53152vw, 43.19569vh, -1525px) rotate3d(7, 21, 11, 161deg);
+            transform: translate3d(49.53152vw, 43.19569vh, -1525px) rotate3d(7, 21, 11, 161deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(68.81533vw, -35.41257vh, 100px) rotate3d(-14, -5, 5, 161deg);
+            transform: translate3d(68.81533vw, -35.41257vh, 100px) rotate3d(-14, -5, 5, 161deg);
+  }
+}
+.polygon:nth-child(37) {
+  -webkit-animation: fly-37 5000ms ease-in infinite;
+          animation: fly-37 5000ms ease-in infinite;
+  -webkit-animation-delay: -3216ms;
+          animation-delay: -3216ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-37 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(49.76558vw, 39.49047vh, -1795px) rotate3d(28, 24, 4, 160deg);
+            transform: translate3d(49.76558vw, 39.49047vh, -1795px) rotate3d(28, 24, 4, 160deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-19.97026vw, 44.52907vh, 100px) rotate3d(26, 16, -9, 160deg);
+            transform: translate3d(-19.97026vw, 44.52907vh, 100px) rotate3d(26, 16, -9, 160deg);
+  }
+}
+@keyframes fly-37 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(49.76558vw, 39.49047vh, -1795px) rotate3d(28, 24, 4, 160deg);
+            transform: translate3d(49.76558vw, 39.49047vh, -1795px) rotate3d(28, 24, 4, 160deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-19.97026vw, 44.52907vh, 100px) rotate3d(26, 16, -9, 160deg);
+            transform: translate3d(-19.97026vw, 44.52907vh, 100px) rotate3d(26, 16, -9, 160deg);
+  }
+}
+.polygon:nth-child(38) {
+  -webkit-animation: fly-38 5000ms ease-in infinite;
+          animation: fly-38 5000ms ease-in infinite;
+  -webkit-animation-delay: -286ms;
+          animation-delay: -286ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-38 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45.46364vw, 41.7112vh, -1871px) rotate3d(25, 24, 7, 154deg);
+            transform: translate3d(45.46364vw, 41.7112vh, -1871px) rotate3d(25, 24, 7, 154deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0.91232vw, -69.73868vh, 100px) rotate3d(-1, -4, 3, 154deg);
+            transform: translate3d(0.91232vw, -69.73868vh, 100px) rotate3d(-1, -4, 3, 154deg);
+  }
+}
+@keyframes fly-38 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45.46364vw, 41.7112vh, -1871px) rotate3d(25, 24, 7, 154deg);
+            transform: translate3d(45.46364vw, 41.7112vh, -1871px) rotate3d(25, 24, 7, 154deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0.91232vw, -69.73868vh, 100px) rotate3d(-1, -4, 3, 154deg);
+            transform: translate3d(0.91232vw, -69.73868vh, 100px) rotate3d(-1, -4, 3, 154deg);
+  }
+}
+.polygon:nth-child(39) {
+  -webkit-animation: fly-39 5000ms ease-in infinite;
+          animation: fly-39 5000ms ease-in infinite;
+  -webkit-animation-delay: -1622ms;
+          animation-delay: -1622ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-39 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.06318vw, 33.21977vh, -1963px) rotate3d(28, 25, 15, 107deg);
+            transform: translate3d(44.06318vw, 33.21977vh, -1963px) rotate3d(28, 25, 15, 107deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(17.79946vw, -79.59312vh, 100px) rotate3d(2, 12, 6, 107deg);
+            transform: translate3d(17.79946vw, -79.59312vh, 100px) rotate3d(2, 12, 6, 107deg);
+  }
+}
+@keyframes fly-39 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.06318vw, 33.21977vh, -1963px) rotate3d(28, 25, 15, 107deg);
+            transform: translate3d(44.06318vw, 33.21977vh, -1963px) rotate3d(28, 25, 15, 107deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(17.79946vw, -79.59312vh, 100px) rotate3d(2, 12, 6, 107deg);
+            transform: translate3d(17.79946vw, -79.59312vh, 100px) rotate3d(2, 12, 6, 107deg);
+  }
+}
+.polygon:nth-child(40) {
+  -webkit-animation: fly-40 5000ms ease-in infinite;
+          animation: fly-40 5000ms ease-in infinite;
+  -webkit-animation-delay: -2077ms;
+          animation-delay: -2077ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-40 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(42.61536vw, 51.00783vh, -1913px) rotate3d(30, 2, 11, 163deg);
+            transform: translate3d(42.61536vw, 51.00783vh, -1913px) rotate3d(30, 2, 11, 163deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(72.45481vw, 33.90383vh, 100px) rotate3d(7, -9, -3, 163deg);
+            transform: translate3d(72.45481vw, 33.90383vh, 100px) rotate3d(7, -9, -3, 163deg);
+  }
+}
+@keyframes fly-40 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(42.61536vw, 51.00783vh, -1913px) rotate3d(30, 2, 11, 163deg);
+            transform: translate3d(42.61536vw, 51.00783vh, -1913px) rotate3d(30, 2, 11, 163deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(72.45481vw, 33.90383vh, 100px) rotate3d(7, -9, -3, 163deg);
+            transform: translate3d(72.45481vw, 33.90383vh, 100px) rotate3d(7, -9, -3, 163deg);
+  }
+}
+.polygon:nth-child(41) {
+  -webkit-animation: fly-41 5000ms ease-in infinite;
+          animation: fly-41 5000ms ease-in infinite;
+  -webkit-animation-delay: -2591ms;
+          animation-delay: -2591ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-41 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(39.57009vw, 41.44659vh, -1561px) rotate3d(28, 1, 3, 112deg);
+            transform: translate3d(39.57009vw, 41.44659vh, -1561px) rotate3d(28, 1, 3, 112deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(61.66277vw, -52.65594vh, 100px) rotate3d(10, -30, -8, 112deg);
+            transform: translate3d(61.66277vw, -52.65594vh, 100px) rotate3d(10, -30, -8, 112deg);
+  }
+}
+@keyframes fly-41 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(39.57009vw, 41.44659vh, -1561px) rotate3d(28, 1, 3, 112deg);
+            transform: translate3d(39.57009vw, 41.44659vh, -1561px) rotate3d(28, 1, 3, 112deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(61.66277vw, -52.65594vh, 100px) rotate3d(10, -30, -8, 112deg);
+            transform: translate3d(61.66277vw, -52.65594vh, 100px) rotate3d(10, -30, -8, 112deg);
+  }
+}
+.polygon:nth-child(42) {
+  -webkit-animation: fly-42 5000ms ease-in infinite;
+          animation: fly-42 5000ms ease-in infinite;
+  -webkit-animation-delay: -1008ms;
+          animation-delay: -1008ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-42 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(42.05114vw, 50.53892vh, -1707px) rotate3d(23, 24, 15, 180deg);
+            transform: translate3d(42.05114vw, 50.53892vh, -1707px) rotate3d(23, 24, 15, 180deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(74.96447vw, 3.22095vh, 100px) rotate3d(12, 21, 10, 180deg);
+            transform: translate3d(74.96447vw, 3.22095vh, 100px) rotate3d(12, 21, 10, 180deg);
+  }
+}
+@keyframes fly-42 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(42.05114vw, 50.53892vh, -1707px) rotate3d(23, 24, 15, 180deg);
+            transform: translate3d(42.05114vw, 50.53892vh, -1707px) rotate3d(23, 24, 15, 180deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(74.96447vw, 3.22095vh, 100px) rotate3d(12, 21, 10, 180deg);
+            transform: translate3d(74.96447vw, 3.22095vh, 100px) rotate3d(12, 21, 10, 180deg);
+  }
+}
+.polygon:nth-child(43) {
+  -webkit-animation: fly-43 5000ms ease-in infinite;
+          animation: fly-43 5000ms ease-in infinite;
+  -webkit-animation-delay: -2497ms;
+          animation-delay: -2497ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-43 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(41.76249vw, 33.81568vh, -1510px) rotate3d(14, 25, 2, 131deg);
+            transform: translate3d(41.76249vw, 33.81568vh, -1510px) rotate3d(14, 25, 2, 131deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(49.36251vw, -69.47383vh, 100px) rotate3d(-2, 1, -6, 131deg);
+            transform: translate3d(49.36251vw, -69.47383vh, 100px) rotate3d(-2, 1, -6, 131deg);
+  }
+}
+@keyframes fly-43 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(41.76249vw, 33.81568vh, -1510px) rotate3d(14, 25, 2, 131deg);
+            transform: translate3d(41.76249vw, 33.81568vh, -1510px) rotate3d(14, 25, 2, 131deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(49.36251vw, -69.47383vh, 100px) rotate3d(-2, 1, -6, 131deg);
+            transform: translate3d(49.36251vw, -69.47383vh, 100px) rotate3d(-2, 1, -6, 131deg);
+  }
+}
+.polygon:nth-child(44) {
+  -webkit-animation: fly-44 5000ms ease-in infinite;
+          animation: fly-44 5000ms ease-in infinite;
+  -webkit-animation-delay: -3155ms;
+          animation-delay: -3155ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-44 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45.06123vw, 41.2487vh, -1501px) rotate3d(3, 10, 9, 178deg);
+            transform: translate3d(45.06123vw, 41.2487vh, -1501px) rotate3d(3, 10, 9, 178deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(10.74904vw, -76.8914vh, 100px) rotate3d(2, -21, 1, 178deg);
+            transform: translate3d(10.74904vw, -76.8914vh, 100px) rotate3d(2, -21, 1, 178deg);
+  }
+}
+@keyframes fly-44 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(45.06123vw, 41.2487vh, -1501px) rotate3d(3, 10, 9, 178deg);
+            transform: translate3d(45.06123vw, 41.2487vh, -1501px) rotate3d(3, 10, 9, 178deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(10.74904vw, -76.8914vh, 100px) rotate3d(2, -21, 1, 178deg);
+            transform: translate3d(10.74904vw, -76.8914vh, 100px) rotate3d(2, -21, 1, 178deg);
+  }
+}
+.polygon:nth-child(45) {
+  -webkit-animation: fly-45 5000ms ease-in infinite;
+          animation: fly-45 5000ms ease-in infinite;
+  -webkit-animation-delay: -3374ms;
+          animation-delay: -3374ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-45 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(39.05535vw, 38.75527vh, -1606px) rotate3d(29, 9, 4, 132deg);
+            transform: translate3d(39.05535vw, 38.75527vh, -1606px) rotate3d(29, 9, 4, 132deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-20.1067vw, 44.03668vh, 100px) rotate3d(18, 6, -6, 132deg);
+            transform: translate3d(-20.1067vw, 44.03668vh, 100px) rotate3d(18, 6, -6, 132deg);
+  }
+}
+@keyframes fly-45 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(39.05535vw, 38.75527vh, -1606px) rotate3d(29, 9, 4, 132deg);
+            transform: translate3d(39.05535vw, 38.75527vh, -1606px) rotate3d(29, 9, 4, 132deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-20.1067vw, 44.03668vh, 100px) rotate3d(18, 6, -6, 132deg);
+            transform: translate3d(-20.1067vw, 44.03668vh, 100px) rotate3d(18, 6, -6, 132deg);
+  }
+}
+.polygon:nth-child(46) {
+  -webkit-animation: fly-46 5000ms ease-in infinite;
+          animation: fly-46 5000ms ease-in infinite;
+  -webkit-animation-delay: -233ms;
+          animation-delay: -233ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-46 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(48.72367vw, 45.45277vh, -1965px) rotate3d(29, 17, 4, 123deg);
+            transform: translate3d(48.72367vw, 45.45277vh, -1965px) rotate3d(29, 17, 4, 123deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-5.89298vw, -61.90709vh, 100px) rotate3d(5, -15, 4, 123deg);
+            transform: translate3d(-5.89298vw, -61.90709vh, 100px) rotate3d(5, -15, 4, 123deg);
+  }
+}
+@keyframes fly-46 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(48.72367vw, 45.45277vh, -1965px) rotate3d(29, 17, 4, 123deg);
+            transform: translate3d(48.72367vw, 45.45277vh, -1965px) rotate3d(29, 17, 4, 123deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-5.89298vw, -61.90709vh, 100px) rotate3d(5, -15, 4, 123deg);
+            transform: translate3d(-5.89298vw, -61.90709vh, 100px) rotate3d(5, -15, 4, 123deg);
+  }
+}
+.polygon:nth-child(47) {
+  -webkit-animation: fly-47 5000ms ease-in infinite;
+          animation: fly-47 5000ms ease-in infinite;
+  -webkit-animation-delay: -1453ms;
+          animation-delay: -1453ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-47 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(41.80358vw, 35.48099vh, -1682px) rotate3d(6, 14, 5, 148deg);
+            transform: translate3d(41.80358vw, 35.48099vh, -1682px) rotate3d(6, 14, 5, 148deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(74.90134vw, 1.03722vh, 100px) rotate3d(-22, -15, 2, 148deg);
+            transform: translate3d(74.90134vw, 1.03722vh, 100px) rotate3d(-22, -15, 2, 148deg);
+  }
+}
+@keyframes fly-47 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(41.80358vw, 35.48099vh, -1682px) rotate3d(6, 14, 5, 148deg);
+            transform: translate3d(41.80358vw, 35.48099vh, -1682px) rotate3d(6, 14, 5, 148deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(74.90134vw, 1.03722vh, 100px) rotate3d(-22, -15, 2, 148deg);
+            transform: translate3d(74.90134vw, 1.03722vh, 100px) rotate3d(-22, -15, 2, 148deg);
+  }
+}
+.polygon:nth-child(48) {
+  -webkit-animation: fly-48 5000ms ease-in infinite;
+          animation: fly-48 5000ms ease-in infinite;
+  -webkit-animation-delay: -3535ms;
+          animation-delay: -3535ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-48 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.43369vw, 40.80054vh, -1789px) rotate3d(8, 26, 5, 154deg);
+            transform: translate3d(44.43369vw, 40.80054vh, -1789px) rotate3d(8, 26, 5, 154deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(69.11456vw, 47.45124vh, 100px) rotate3d(-8, 3, 5, 154deg);
+            transform: translate3d(69.11456vw, 47.45124vh, 100px) rotate3d(-8, 3, 5, 154deg);
+  }
+}
+@keyframes fly-48 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(44.43369vw, 40.80054vh, -1789px) rotate3d(8, 26, 5, 154deg);
+            transform: translate3d(44.43369vw, 40.80054vh, -1789px) rotate3d(8, 26, 5, 154deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(69.11456vw, 47.45124vh, 100px) rotate3d(-8, 3, 5, 154deg);
+            transform: translate3d(69.11456vw, 47.45124vh, 100px) rotate3d(-8, 3, 5, 154deg);
+  }
+}
+.polygon:nth-child(49) {
+  -webkit-animation: fly-49 5000ms ease-in infinite;
+          animation: fly-49 5000ms ease-in infinite;
+  -webkit-animation-delay: -2407ms;
+          animation-delay: -2407ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-49 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(46.27082vw, 43.09602vh, -1564px) rotate3d(27, 23, 13, 108deg);
+            transform: translate3d(46.27082vw, 43.09602vh, -1564px) rotate3d(27, 23, 13, 108deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-6.13939vw, -61.568vh, 100px) rotate3d(-2, 7, 4, 108deg);
+            transform: translate3d(-6.13939vw, -61.568vh, 100px) rotate3d(-2, 7, 4, 108deg);
+  }
+}
+@keyframes fly-49 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(46.27082vw, 43.09602vh, -1564px) rotate3d(27, 23, 13, 108deg);
+            transform: translate3d(46.27082vw, 43.09602vh, -1564px) rotate3d(27, 23, 13, 108deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-6.13939vw, -61.568vh, 100px) rotate3d(-2, 7, 4, 108deg);
+            transform: translate3d(-6.13939vw, -61.568vh, 100px) rotate3d(-2, 7, 4, 108deg);
+  }
+}
+.polygon:nth-child(50) {
+  -webkit-animation: fly-50 5000ms ease-in infinite;
+          animation: fly-50 5000ms ease-in infinite;
+  -webkit-animation-delay: -4445ms;
+          animation-delay: -4445ms;
+}
+.polygon:at-root {
+  /* uncomment to enable debug */
+  /*
+  @at-root {
+      .polygon-container:after,
+      .polygon-container:before {
+          content: '';
+          position: absolute;
+          border: 2px solid #fff;
+          top: 50vh - $target-radius-y / 2;
+          left: 50vw - $target-radius-x / 2;
+          border-radius: 50%;
+          width: $target-radius-x;
+          height: $target-radius-y;
+          z-index: 1;
+      }
+      .polygon-container:after {
+          top: 50vh - $origin-radius-y / 2;
+          left: 50vw - $origin-radius-x / 2;
+          width: $origin-radius-x;
+          height: $origin-radius-y;
+          transform: translate3d(0, 0, $origin-z);
+      }
+  }/**/
+}
+@-webkit-keyframes fly-50 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(47.1235vw, 43.54309vh, -1552px) rotate3d(30, 1, 5, 166deg);
+            transform: translate3d(47.1235vw, 43.54309vh, -1552px) rotate3d(30, 1, 5, 166deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(53.62161vw, -64.83583vh, 100px) rotate3d(18, -31, -5, 166deg);
+            transform: translate3d(53.62161vw, -64.83583vh, 100px) rotate3d(18, -31, -5, 166deg);
+  }
+}
+@keyframes fly-50 {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(47.1235vw, 43.54309vh, -1552px) rotate3d(30, 1, 5, 166deg);
+            transform: translate3d(47.1235vw, 43.54309vh, -1552px) rotate3d(30, 1, 5, 166deg);
+  }
+  50% {
+    opacity: .9;
+  }
+  90% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(53.62161vw, -64.83583vh, 100px) rotate3d(18, -31, -5, 166deg);
+            transform: translate3d(53.62161vw, -64.83583vh, 100px) rotate3d(18, -31, -5, 166deg);
+  }
+}
